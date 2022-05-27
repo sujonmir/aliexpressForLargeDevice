@@ -1,0 +1,13 @@
+This user manual is for only uncommon or unguessable page name.
+_____________________________________
+
+♦♦♦ Catagory and subcatagory page are same. so i give you only Catagory Page. ♦♦♦
+
+→ Catagory page: index-cellphones.html
+→ All catagory page: all_catagory.html
+→ checkout page: order-confirm.html
+→ Store Page: Modian.html
+→ Store product Page: shop_product.html
+→ Seller Login: seller_login.html
+→ seller registration: seller_registration.html
+→ Buyer Login and registration page: sing_register.html

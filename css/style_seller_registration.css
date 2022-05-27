@@ -1,0 +1,193 @@
+.registration{
+    background: #eff0f5;
+    padding: 30px 0;
+}
+/* Registration title area */
+.registration-wrap .registration-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 28px;
+}
+.registration-wrap .registration-title h3{
+    font-size: 22px;
+    color: #424242;
+    font-weight: 400;
+}
+.registration-wrap .registration-title p{
+    margin: 0;
+    color: #757575;;
+}
+.registration-wrap .registration-title p a{
+    margin: 0;
+    color: #1a9cb7;;
+}
+.registration-wrap .registration-title p a:hover{
+    text-decoration: none;
+}
+.registration-wrap .daraz-reg{
+    background: #ffffff;
+    padding: 32px;
+}
+.invisible{
+    visibility: hidden;
+}
+
+
+.btn-sing{
+    width: 100%;
+    display: block;
+    background: #f57224;
+    margin: 0;
+    height: 48px;
+    padding: 0 36px;
+    font-size: 14px;
+    line-height: 46px;
+    border-width: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+.privacy{
+    margin-top: 8px;
+    font-size: 14px;
+}
+.privacy p span a{
+    color: #049cb9;
+}
+.privacy p span a:hover{
+    text-decoration: none;
+}
+.privacy{
+    margin-top: 8px;
+}
+
+
+.btn-change{
+    border: 1px solid #f57224;
+    color: #f57224;
+    width: 100%;
+    margin: 0;
+    height: 48px;
+    padding: 0 36px;
+    font-size: 14px;
+    line-height: 46px;
+    border-width: 1px;
+    transition: all 0.5s ease-out;
+}
+.btn-change:hover{
+    color: #f57224;
+    background-color: #feeade !important;
+    border-color: #f57224;
+    text-decoration: none;
+}
+
+.social-share{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-social{
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    margin: 0;
+    height: 48px;
+    padding: 0 36px;
+    font-size: 18px;
+    line-height: 46px;
+    border-width: 1px;
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.social-share a:nth-child(1) {
+    background: #3b5998;
+    margin-right: 4px;
+}
+.social-share a:nth-child(2) {
+    background: #d34836;
+    margin-left: 4px;
+    overflow: hidden;
+}
+
+.daraz-reg .form-control:focus {
+    background-color: #fff;
+    border-color: #ddd;
+    outline: 0;
+    box-shadow:none;
+}
+.daraz-reg .form-control::placeholder {
+    color: #999999;
+}
+.daraz-reg .form-group label{
+    font-size: 14px;
+    color: #424242;
+}
+
+.daraz-reg .form-group.col-md-3 .form-control {
+    border-radius: 0;
+    font-size: 12px;
+    padding:8px;
+}
+
+
+
+/* 
+
+
+#well {
+	padding: 14px 20px 20px 20px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	background: -moz-linear-gradient(top, #010101, #181818);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #010101),color-stop(1, #181818));
+	
+	border: 2px solid #454545; 
+	overflow: hidden; 
+	
+	-webkit-user-select: none;
+}
+
+h2 {
+  background: -moz-linear-gradient(left, #4d4d4d, 0.4, #4d4d4d, 0.5, white, 0.6, #4d4d4d, #4d4d4d); 
+  background: -webkit-gradient(linear,left top,right top,color-stop(0, #4d4d4d),color-stop(0.4, #4d4d4d),color-stop(0.5, white),color-stop(0.6, #4d4d4d),color-stop(1, #4d4d4d)); 
+  
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  
+  -webkit-animation: slidetounlock 5s infinite;
+  
+  font-size: 80px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  
+  padding: 0;
+  width: 200%;
+  
+  -webkit-text-size-adjust: none;
+}
+#slider {
+	background: url(../images/arrow.png) no-repeat;
+	width: 146px;
+	height: 98px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+}
+
+@-webkit-keyframes slidetounlock {
+	0% {
+		background-position: -720px 0;
+	}
+	100%{
+		background-position: 720px 0;
+	}
+} */

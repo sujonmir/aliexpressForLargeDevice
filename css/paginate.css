@@ -1,0 +1,46 @@
+div.paginate{
+    padding: 10px 5px;
+    margin: auto;
+	background: #fff;
+	font-size: 14px;
+}
+div.paginate input[type='button']:hover{
+    cursor: pointer;
+}
+div.paginate input[type='button']{
+    margin: 0px 2px;
+    border: 1px solid #ccc;
+    color: #000;
+    background-color: transparent;
+    border-radius: 2px;
+    min-width: 1.7rem;
+    min-height: 1.9rem;
+    outline: none;
+}
+
+div.paginate input[type='button'].active{
+    background-color: #ff4747 !important;
+    color: #fff;
+	border-radius: 2px !important;
+	border-color: #ff4747 !important;
+}
+div.paginate input[type='button']:disabled{
+    color: grey!important;
+    cursor: not-allowed;
+}
+
+div.paginate input[type='number']#paginate_page_to_go{
+    max-width: 3rem;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.65);
+    padding: 3px;
+}
+#paginate_page_to_go{
+	background: transparent;
+	border: 1px solid #ccc;
+	width: 50px;
+	margin: 0 5px;
+	border-radius: 2px;
+	
+}

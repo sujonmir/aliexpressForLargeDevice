@@ -1,0 +1,48 @@
+@media (max-width: 991px) {
+	.right-side-img{
+		display: flex;
+		justify-content: space-between;
+	}
+	.right-side-img .right-side-img-item{}
+	.right-side-img .right-side-img-item img{
+		height: 200px;
+		width: 200px;
+	}
+	.ali-award-time{
+		height: 52px;
+	}
+	.ali-award-time li{
+		font-size: 13px;
+	}
+	.ali-award-time li span{
+		height: 15px;
+		width: 15px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.ali-content{
+		padding: 15px 0;
+	}
+	.ali-awrd-time{
+    	height: 38px;
+	}
+
+	.ali-award-button{
+		display: block;
+	}
+	.ali-award-button .red-button{
+		width: 100%;
+		margin: 0;
+	}
+	.ali-button button{
+	font-weight: 600;
+	margin: 20px 5px;
+	padding: 5px 10px;
+	}
+	.right-side-img .right-side-img-item img{
+		height: 100px;
+		width: 100px;
+	}
+}

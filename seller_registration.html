@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="This is seller registration page">
+	<title>Seller Registration Page</title>
+	<link rel="shortcut icon" href="images/seller_registration_page_img/aliexpress.ico">
+	<link rel="stylesheet" href="css/seller_registration.css">
+</head>
+<body>
+<!--header start-->
+  <header class="flex seller_regi_iar_header">
+  	<a href="index.html" target="_self" class="seller_regi_iar_logo"><img src="images/seller_registration_page_img/logo.png" alt=""></a>
+  	<select id="header_lang_option" class="ml_auto">
+  		<option value="language">Select Language</option>
+  		<option value="bangla">Bangla</option>
+  		<option value="english">English</option>
+  	</select>
+  </header> <!-----header close----->
+  <section class="seller_regi_iar_signUp">
+   <form action="#" id="seller_regi_iar_form" onsubmit="return formValidate()">
+  	<h3 class="text_center">Sign Up</h3>
+  	<div class="row flex">
+	  <span class="position_relative tag">Account Type <i>*</i></span>
+	  <div class="input_container radio">
+		<input type="radio" name="account type" id="individual" checked>
+	    <label for="individual">Individual</label>
+	    <input type="radio" name="account type" id="business">
+	    <label for="business">Business</label>
+	  </div>
+  	</div>
+  	<div class="row flex">
+  	  <div class="seller_regi_iar_account_short_info">
+	    <p id="short_info">Individual will need Personal Identity card and at least 18 years old in order to sell as Individual on Daraz</p>
+	  </div>	
+  	</div>
+  	<div class="row flex">
+ 	  <span class="position_relative tag">Shop Based in <i>*</i></span>
+	    <div id="select_country_toggle" class="seller_regi_iar_select_country_toggle position_relative input_container">
+		  <img src="images/seller_registration_page_img/bd_flag.png" alt="bg flag">
+		  <span>Bangladesh</span>
+		  <div id="select_country_toggle_content" class="seller_regi_iar_toggle_content_pane position_absolute">
+		  <img class="check_icon" src="images/seller_registration_page_img/check.png" alt="check icon">
+		  <img src="images/seller_registration_page_img/bd_flag.png" alt="bg flag">
+		  <span>Bangladesh</span>
+		</div>
+  	   </div> <!----select_country_toggle close---->
+	  </div>
+	  <div class="row flex">
+	    <span class="position_relative tag">Mobile Number <i>*</i></span>
+	  	<div class="input_container">
+	  	 <div class="seller_regi_iar_select_input_wrapper position_relative">
+		   <input type="number" id="mobile_num">
+		 </div>
+	     <span class="mobile_num_error_message"></span>	
+	  	</div>
+	  </div>
+	  <div class="row flex">
+	    <span class="position_relative tag">Password <i>*</i></span>
+		<div class="input_container">
+		  <input type="password" id="pwd">
+		  <span class="pwd_error_message">The item can not be emty</span>
+		 </div>
+	  </div>
+	  <div class="row flex">
+	    <span class="position_relative tag">Confirm Password <i>*</i></span>
+		<div class="input_container">
+		  <input type="password" id="confirm_pwd">
+		  <span class="confirm_pwd_error_message">The item can not be empty</span>
+		 </div>
+	  </div>
+	  <div class="row flex">
+	    <span class="position_relative tag">Email Address <i>*</i></span>
+		<div class="input_container">
+		  <input type="email" id="email">
+		  <span class="email_error_message">The item can not be empty</span>
+		 </div>
+	  </div>
+	  <div class="row flex">
+	    <span class="position_relative tag">Shop Name <i>*</i></span>
+		<div class="input_container">
+		  <input type="text" id="shop_name">
+		  <span class="shop_name_error_message">The item can not be empty</span>
+		 </div>
+	  </div>
+	  <div class="row">
+	  	<a href="#" target="_blank">I have a referral code</a>
+	  </div>
+	  <div class="row flex position_relative">
+	    <input type="checkbox" id="toggle_chk">
+		<label for="toggle_chk">I've read and understood Daraz's <a href="#" target="_blank">Terms &amp; Conditions</a></label>
+	  </div>
+	  <div class="row text_center">
+	  	<input id="signUP" type="submit" value="Sign Up">
+	  </div>
+   </form>
+  </section>
+  <script src="js/seller_registration.js"></script>
+</body>
+</html>

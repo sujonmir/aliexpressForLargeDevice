@@ -1,0 +1,36 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.red_tab_wrapper{
+	width: 100%;
+	min-height: 40px;
+	box-sizing: border-box;
+	background: #E62E04 ;
+}
+.red_tab{
+	list-style: none;
+}
+.red_tab li{
+	float: left;
+}
+.red_tab li:hover{
+	
+}
+.red_tab li a{
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	margin: 0;
+	padding: 10px;
+}
+.red_tab li:hover a{
+	text-decoration: none;
+	background: #C71801;
+}
+.red_tab li .active{
+	background: #C71801;
+}

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f2f2;
+}
+.message-header{
+    padding: 15px 15px 5px 0px;
+}
+.Service-header{
+    padding: 15px 15px 5px 0px;
+}
+.setting-header{
+    padding: 15px 15px 5px 0px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.left-menu{
+    background: #ffff;
+}
+.left-menu h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.left-menu h4 a{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-left: 15px;
+}
+/* menu-header */
+.message-header a:hover{
+    color: #f60;
+}
+.Service-header a:hover{
+    color: #f60;
+}
+.setting-header a:hover{
+    color: #f60;
+}
+/* menu-header-end */
+    /* submenu */
+.ms-submenu {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.sr-submenu {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.st-submenu {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f2f2f2;
+}
+    /* submenu-end */
+.left-menu .submenu-text{
+    font-size: 13px;
+    line-height: 30px;
+}
+.left-menu .submenu-text2 {
+	font-size: 13px;
+	line-height: 30px;
+	border-left: 3px solid #f60;
+	background: #f2f2f2;
+}
+.left-menu .submenu-text3{
+    font-size: 13px;
+    color: black;
+    line-height: 30px;
+}
+.left-menu .submenu-text2 a{
+    color:  #f60;;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.left-menu .submenu-text3 a{
+    color:  rgb(0, 0, 0);
+    font-weight: 400;
+    padding-left: 15px;
+}
+span i {
+    font-size: 10px;
+}
+.left-menu .submenu-text a{
+    color:  rgb(0, 0, 0);
+    font-weight: 400;
+    padding-left: 15px;
+}
+    /* download-section */
+.download-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #DEE2E6;
+	margin-top: 26px;
+	background: #fff;
+}
+.download-section h4{
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.download-section span{
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #999;
+}
+.download-section a {
+	display: grid;
+	place-items: center;
+	margin-top: 12px;
+	color: black;
+	font-size: 13px;
+}
+.download-wrapper {
+	padding: 15px 0 15px 0px;
+}
+.download-section a:hover {
+	color: #f60;
+}
+.download-section h6{
+    font-size: 13px;
+    margin-top: 15px;
+}
+    /* download-section-end */
+
+/* Notification-section */
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	padding: 17px;
+	margin: 20px 0;
+	border: 1px solid #E8E8E8;
+}
+.notify-header span {
+	font-size: 12px;
+}
+.notify-header span::before {
+	content: "";
+	background: black;
+	display: inline-block;
+	width: 2px;
+	height: 12px;
+	margin: 0px 18px;
+}
+.notify-header a {
+	color: #FF6600;
+	font-size: 13px;
+	margin-right: 0;
+}
+.main-notify {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F2F2F2;
+	padding: 10px;
+	font-size: 12px;
+}
+.mark-button {
+	border: 1px solid #E8E8E8;
+}
+.mark-button span {
+	padding: 7px;
+}
+.notification-content {
+	background: #fff;
+	height: 212px;
+	padding: 15px;
+	border: 1px solid #E8E8E8;
+	position: relative;
+}
+.unread-notify {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFAEE;
+	border: 1px solid #FFF1D2;
+	margin-top: 11px;
+	width: 87%;
+	position: absolute;
+	left: 57px;
+}
+.unread-notify h6 {
+	font-size: 13px;
+	margin-bottom: 0;
+}
+.unread-notify span {
+	color: #FF9900;
+	margin: 0 10px;
+}
+/* Notification-section */
+/* pagination */
+.pagination-wrapper button {
+	padding: 0px 5px;
+	background: #fff;
+	border: 1px solid #F2F2F2;
+	color: #787878;
+}
+.pagination-wrapper {
+	display: flex;
+	background: #F2F2F2;
+	width: 100%;
+	margin-top: 83px;
+	padding: 10px;
+	border-top: 1px solid #e8e8e8;
+	position: relative;
+}
+.pagination-wrapper .sort-section input {
+	outline: none;
+	border: none;
+	width: 19px;
+	text-align: center;
+	font-size: 13px;
+	background: none;
+}
+.go-page span {
+	font-size: 15px;
+	padding: 0 10px;
+}
+.go-page {
+	position: absolute;
+	right: 0;
+	display: flex;
+	align-items: center;
+}
+.go-page input {
+	width: 27px;
+	outline: none;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.go-page button {
+	padding: 0 8px;
+	margin: 0 10px;
+	background: #f2f2f2;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.go-page button:hover{
+	background: #fdfdfd;
+}
+/* pagination */

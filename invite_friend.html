@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="css/invite_friend.css">
+  </head>
+  <body>
+	<div id="myOverlay" class="overlay">
+	  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+	  <div class="overlay-content">
+		<form action="/action_page.php" class="search_form">
+		  <input type="text" placeholder="Search.." name="search">
+		  <button type="submit"><i class="fa fa-search"></i></button>
+		</form>
+	  </div>
+	</div>
+    <!-- header-group-start -->
+      <!-- menu-bar-start -->
+    <div class="header-group">
+        <div id="sidebar">
+            <div class="toggle-btn" id="tb_close"  onclick="show()">
+                <span class="tb_line"></span>
+                <span class="tb_line"></span>
+                <span class="tb_line"></span>
+            </div>
+            <div class="drawer-loginInfo">
+                <div class="portrait">
+                    <img src="images/invite_friend/potrait.jpg" alt="">
+                </div>
+                <div class="drawer-userName">Hi, BD</div>
+            </div>
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                <li><a href="my_order.html"><i class="fas fa-clipboard-list"></i>My Orders</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+                <li style="padding-bottom:20px"><a href="wishlist.html"><i class="fas fa-heart"></i>Wish List</a></li>
+                <ul id="sub-sidebar" style="border-top: 1px solid #EBEBEC; border-bottom: 1px solid #EBEBEC;">
+                    <li style="padding-bottom:0"><a href="helpcenter.html"><i class="fas fa-question-circle"></i>Help Center</a></li>
+                    <li style="padding-bottom:20px"><a href="manageFeedback.html"><i class="fas fa-star"></i>Feedback</a></li>
+                </ul>
+                <li style="padding-bottom:0"><a href="Privacy_Policy.html"><i class="fas fa-shield-alt"></i>Privacy policy</a></li>
+                <li style="padding-bottom:20px"><a href="Coupon_details.html"><i class="fas fa-check-square"></i>Legal information</a></li>
+                <ul style="border-top: 1px solid #EBEBEC;">
+                    <li><a href="#"><i class="fas fa-power-off"></i>Sign Out</a></li>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="top-navbar">
+            <!-- logo -->
+                <div class="item_logo">
+                    <div class="aliexpress-logo">
+                        <a href="index.html">
+							<img src="images/invite_friend/logo.png" alt="">
+						</a>
+                    </div>
+                </div>
+            <!-- logo -->
+            <!-- icon -->
+                <div class="item-icon">
+                    <div class="search-icon" class="openBtn" onclick="openSearch()">
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                    <div class="cat-icon">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            <!-- icon -->
+        </div>
+    </div>
+
+    <div class="rule-link">
+        <div class="rule-icon">?</div>
+        <div class="rule-txt"><a href="invite_rules.html">Rules</a></div>
+    </div>
+      <!-- menu-bar-end -->
+<!-- header-group-end -->
+      <div class="header-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="header-content">
+                  <div class="banner-img">
+                      <img src="images/invite_friend/img-1.jpg" alt="">
+                  </div>
+                  <div class="banner-text">
+                    <h2 class="earn-highlight">Share and give US $24.00 you'll get US $5.00</h2>
+                    <p class="earn-desc">Invite friends to join AliExpress! They'll get US $24.00 in coupons.Once they do a purchase, you'll also get US $5.00.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- btn-section-start -->
+            <div class="btn-section">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="group-btn">
+                            <div class="code-box">
+                                <span class="code">IN43ZQGK</span>
+                                <span class="copy-code">Copy</span>
+                            </div>
+                            <div class="invite-btn">
+                                <span class="invite-text">Invite Friends</span>
+                            </div>
+                            <div class="invite-rule">
+                                <a class="invite-rule-link" href="invite_frineds_terms.html">Terms & Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- btn-group-end -->
+          </div>
+            <div class="devider"></div>
+            <!-- banner-details-section-start -->
+            <div class="banner-details">
+                <div class="container">
+                    <div class="banner-details-content">
+                        <img src="images/invite_friend/img-2.png" alt="">
+                        <div class="detail-banner-title-wrap">
+                            <div class="detail-banner-title">GET AN EXTRA BONUS</div>
+                            <div class="detail-banner-subtitle">Win up to US $10</div>
+                        </div>
+                        <div class="detail-banner-btn">Get it</div>
+                    </div>
+                </div>
+                <div class="devider2"></div>
+            </div>
+            <!-- banner-details-section-end -->
+            <!-- earn-container-start -->
+            <div class="earn-container">
+                <div class="container">
+                    <div class="earn-main">
+                        <div class="earn-title">Total Earnings</div>
+                        <div class="earn-total">
+                            <h2>US $0.00</h2>
+                        </div>
+                        <div class="view-coupon">
+                            <a class="coupon-btn" href="mycoupons.html">View coupons</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizon-line"></div>
+            </div>
+            <!-- earn-container-end -->
+            <!-- earn-detail-section-start -->
+            <div class="earn-detail">
+                <div class="container">
+                    <div class="notice-details">
+                        <h3>You don't have any coupons yet. Invite friends to earn!</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- earn-detail-section-end -->
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/invite_friend.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	list-style-type: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.shopping-cart-2{
+	background-color: #F2F2F2;
+	padding: 10px 0;
+}
+.shopping-cart-head{
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: 0 0 3px;
+}
+.shopping-cart-timer{}
+.shopping-cart-timer ul{}
+.shopping-cart-timer ul li{
+	margin: 20px 3px 20px 0;
+}
+.shopping-cart-timer ul li a{
+	background-color: #FF4747;
+	color: #fff;
+	font-size: 15px;
+	padding: 2px 10px;
+}
+.shopping-cart-timer ul li span{
+	border:1px solid #FF4747;
+	height: 20px;
+	width: 20px;
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+}

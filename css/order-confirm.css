@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px !important;
+    padding: 0 !important;
+}
+
+.shipping-information,
+.payment-methods,
+.order-review,
+.order-summary {
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.shipping-information .main-title,
+.payment-methods .main-title,
+.order-review .main-title,
+.order-summary .main-title {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 8px;
+    line-height: 25px;
+}
+
+.shipping-information button.add-new-address,
+.payment-methods button.add-new-address {
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 0;
+    padding: 0;
+    height: 20px;
+    line-height: 20px;
+    border-width: 0;
+    color: #2e9cc3;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.shipping-information button.add-new-address:focus,
+.payment-methods button.add-new-address:focus {
+    outline: none;
+}
+
+.order-review .store-name {
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.product-image {
+    max-width: 18% !important;
+    padding-right: 0;
+}
+
+.product-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+}
+
+.product-main {
+    max-width: 65%;
+}
+
+.product-main .product-title {
+    word-break: break-all;
+    display: block;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product-main .product-price {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    display: block;
+}
+
+.product-main .product-field {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6px;
+    line-height: 18px;
+    font-size: 14px;
+    align-items: center;
+    cursor: pointer;
+    display: block;
+}
+
+.product-main .logistics-cost {
+    margin-right: 5px;
+    color: #2e9cc3;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.product-main .logistics-delivery {
+    margin-right: 5px;
+    font-size: 12px;
+    color: #2a2a2a;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.product-main .seller-message-title {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #2e9cc3;
+    cursor: pointer;
+}
+
+.product-opt .minus-btn,
+.product-opt .plus-btn {
+    border-radius: 50% !important;
+    border: none;
+    background: #f2f2f2;
+    /* width: 26px;
+    height: 26px; */
+    text-align: center;
+    padding: 4px 10px;
+    box-sizing: border-box;
+}
+
+.product-opt {
+    margin-top: 50px;
+}
+
+.product-opt #quantity {
+    border: none;
+    height: 26px;
+    width: 46px;
+    color: #2e9cc3;
+    font-size: 14px;
+    text-align: center;
+}
+
+.product-opt #quantity:focus,
+.product-opt .minus-btn:focus,
+.product-opt .plus-btn:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.quantity button[disabled] {
+    cursor: not-allowed;
+    color: #bdbdbd;
+}
+
+.charge-title,
+.charge-cost {
+    line-height: 24px;
+    color: #999;
+    font-size: 12px;
+}
+
+.total-title,
+.total-cost {
+    color: #000;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.total-cost i {
+    font-size: 20px;
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+    vertical-align: -.15em;
+    fill: currentColor;
+    text-align: center;
+}
+
+.charge-cost i {
+    font-size: 20px;
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+    vertical-align: -.15em;
+    fill: currentColor;
+    text-align: center;
+    color: #000;
+}
+
+.coupon-code-title {
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #000;
+}
+
+.coupon-code-input {
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    padding: 0 8px;
+    font-size: 12px;
+    outline: none;
+    font-weight: 400;
+    vertical-align: middle;
+    color: #000;
+    display: inline-table;
+    border-collapse: separate;
+    border-spacing: 0;
+    transition: all .3s ease-out;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.coupon-code-button {
+    color: #ff4747;
+    background-color: #fff9f9;
+    border-color: #ff5959;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0 32px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 12px;
+    border-width: 1px;
+}
+
+.coupon-code-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.charge-cost1 {
+    margin: 0;
+    padding-left: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.place-order-btn {
+    color: #fff;
+    background-color: #ff5959;
+    border-color: transparent;
+    text-decoration: none;
+    margin-bottom: 6px;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 0 48px;
+    height: 44px;
+    line-height: 42px;
+    font-size: 16px;
+    border-width: 1px;
+    width: 100%;
+    display: block;
+}
+
+.confirm-tips {
+    color: #999;
+    font-size: 12px;
+    line-height: 15px;
+    -ms-transform: scale(.86);
+    transform: scale(.86);
+    margin: 0 -24px;
+}
+
+.confirm-tips a {
+    color: #999;
+    text-decoration: underline;
+}
+
+.safe-info-hook {
+    margin-top: 16px;
+    padding: 16px;
+    border: 1px solid #222;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.safe-info-hook .o5bQ1 {
+    height: 22px;
+    width: auto;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.safe-info-hook .o28lVk {
+    margin: 0;
+    padding: 16px 0;
+    font-size: 14px;
+    color: #666;
+    display: block;
+}
+
+.modal-dialog {
+    max-width: 845px !important;
+}
+
+.ps-modal-header,
+.ps1-modal-header {
+    border-bottom: 0 solid transparent;
+}
+
+.ps-modal-header .modal-title,
+.ps1-modal-header .modal-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.modal-htext {
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    margin: 0 0 12px;
+    display: block;
+}
+
+.ps-modal-body input[type=text],
+.ps-modal-body input[type=number] {
+    border-radius: 4px;
+    height: 38px;
+    padding: 0 12px;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    background-color: transparent;
+    color: #000;
+}
+
+.ps-modal-body input:focus,
+.ps-modal-body select:focus,
+.ps-modal-body .form-check-input {
+    outline: none;
+    box-shadow: none;
+}
+
+.ps-modal-body select {
+    cursor: pointer;
+    min-width: 100px;
+    outline: 0;
+    transition: all .3s ease;
+}
+
+.ps-modal-body p {}
+
+.ps-modal-body .tips-newTips {
+    font-size: 12px;
+    color: #999;
+    line-height: 14px;
+    -ms-transform: scale(.86);
+    transform: scale(.86);
+    margin-left: 20px;
+}
+
+.ps-modal-body input[type=checkbox] {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.ps-modal-body button {
+    color: #fff;
+    background-color: #ff5959;
+    border-color: transparent;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0 48px;
+    height: 44px;
+    line-height: 42px;
+    font-size: 16px;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+.ps-modal-body button:hover {
+    color: #fff;
+    background-color: #ff5959;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.form-check-label {
+    font-size: 14px;
+    color: #000;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+#name-text,
+#phone-text,
+#address-text,
+#zip-text {
+    display: block;
+    margin: 4px 0 0;
+    color: #e62e04;
+    margin: 0;
+    margin-top: 4px !important;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.modal-card-body {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid #dadada;
+    border-radius: 4px;
+    height: 86px;
+    cursor: pointer;
+}
+
+.modal-card-body p.pay-name {
+    color: #000;
+    font-weight: 600;
+    width: 100%;
+    height: min-content;
+    margin: 0;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.modal-card-body div.pay-icon-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.modal-card-body div.pay-icon-list img{
+    height: 17px;
+    padding: 0 2px;
+}
+.modal-card-body-method {
+    justify-content: center;
+    background: #f5f5f5;
+    border-color: #f5f5f5;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+}
+.pay-method{
+    font-weight: 200;
+}
+#WebMoney,
+#Przelewy24,
+#Mobile-Payment,
+#QIWI-Account,
+#PayU,
+#Sofort-Bank,
+#Bancontact,
+#Online-Banks,
+#YooMoney {
+    display: none;
+}
+.modal-card-body-method1{
+        background: #eee;
+        filter: grayscale(1);
+}

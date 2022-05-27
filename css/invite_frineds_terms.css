@@ -1,0 +1,39 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.header-bg{
+    background: #FF771C;
+    height: 200px;
+}
+.header-content h2 {
+	font-weight: 800;
+	color: white;
+	margin-top: 36px;
+	font-size: 33px;
+	margin-left: 38px;
+	text-transform: uppercase;
+}
+.mb-135 {
+	margin-bottom: 135px !important;
+}
+.mt-76 {
+	margin-top: 76px !important;
+}
+
+.main-text span {
+	font-size: 22px;
+	display: block;
+	margin-left: 2.42%;
+	line-height: 29px;
+}
+.main-text{
+    margin-left: 3.0729166666666665%;
+}
+.main-text h2 {
+	font-weight: 600;
+	margin-top: 36px;
+    margin-bottom: 24px;
+    font-size: 40px;
+}

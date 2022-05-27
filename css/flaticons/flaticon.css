@@ -1,0 +1,55 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/02/2021 19:58
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-truck:before { content: "\f100"; }
+.flaticon-wallet:before { content: "\f101"; }
+.flaticon-shield:before { content: "\f102"; }
+.flaticon-users:before { content: "\f103"; }
+.flaticon-update-profile-user:before { content: "\f104"; }
+.flaticon-apple-logo:before { content: "\f105"; }
+.flaticon-android:before { content: "\f106"; }
+.flaticon-messenger:before { content: "\f107"; }
+.flaticon-movie-tickets:before { content: "\f108"; }
+.flaticon-call-center:before { content: "\f109"; }
+.flaticon-cocktail-dress:before { content: "\f10a"; }
+.flaticon-lingerie:before { content: "\f10b"; }
+.flaticon-tshirt:before { content: "\f10c"; }
+.flaticon-mobile-phone:before { content: "\f10d"; }
+.flaticon-laptop:before { content: "\f10e"; }
+.flaticon-headphones:before { content: "\f10f"; }
+.flaticon-wedding-ring:before { content: "\f110"; }
+.flaticon-sofa:before { content: "\f111"; }
+.flaticon-briefcase:before { content: "\f112"; }
+.flaticon-high-heels:before { content: "\f113"; }
+.flaticon-feeding-bottle:before { content: "\f114"; }
+.flaticon-ball:before { content: "\f115"; }
+.flaticon-more:before { content: "\f116"; }

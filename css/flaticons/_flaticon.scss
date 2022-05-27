@@ -1,0 +1,86 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 07/02/2021 19:58
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-truck:before { content: "\f100"; }
+.flaticon-wallet:before { content: "\f101"; }
+.flaticon-shield:before { content: "\f102"; }
+.flaticon-users:before { content: "\f103"; }
+.flaticon-update-profile-user:before { content: "\f104"; }
+.flaticon-apple-logo:before { content: "\f105"; }
+.flaticon-android:before { content: "\f106"; }
+.flaticon-messenger:before { content: "\f107"; }
+.flaticon-movie-tickets:before { content: "\f108"; }
+.flaticon-call-center:before { content: "\f109"; }
+.flaticon-cocktail-dress:before { content: "\f10a"; }
+.flaticon-lingerie:before { content: "\f10b"; }
+.flaticon-tshirt:before { content: "\f10c"; }
+.flaticon-mobile-phone:before { content: "\f10d"; }
+.flaticon-laptop:before { content: "\f10e"; }
+.flaticon-headphones:before { content: "\f10f"; }
+.flaticon-wedding-ring:before { content: "\f110"; }
+.flaticon-sofa:before { content: "\f111"; }
+.flaticon-briefcase:before { content: "\f112"; }
+.flaticon-high-heels:before { content: "\f113"; }
+.flaticon-feeding-bottle:before { content: "\f114"; }
+.flaticon-ball:before { content: "\f115"; }
+.flaticon-more:before { content: "\f116"; }
+    
+    $font-Flaticon-truck: "\f100";
+    $font-Flaticon-wallet: "\f101";
+    $font-Flaticon-shield: "\f102";
+    $font-Flaticon-users: "\f103";
+    $font-Flaticon-update-profile-user: "\f104";
+    $font-Flaticon-apple-logo: "\f105";
+    $font-Flaticon-android: "\f106";
+    $font-Flaticon-messenger: "\f107";
+    $font-Flaticon-movie-tickets: "\f108";
+    $font-Flaticon-call-center: "\f109";
+    $font-Flaticon-cocktail-dress: "\f10a";
+    $font-Flaticon-lingerie: "\f10b";
+    $font-Flaticon-tshirt: "\f10c";
+    $font-Flaticon-mobile-phone: "\f10d";
+    $font-Flaticon-laptop: "\f10e";
+    $font-Flaticon-headphones: "\f10f";
+    $font-Flaticon-wedding-ring: "\f110";
+    $font-Flaticon-sofa: "\f111";
+    $font-Flaticon-briefcase: "\f112";
+    $font-Flaticon-high-heels: "\f113";
+    $font-Flaticon-feeding-bottle: "\f114";
+    $font-Flaticon-ball: "\f115";
+    $font-Flaticon-more: "\f116";

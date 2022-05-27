@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f2f2;
+}
+.message-header{
+    padding: 15px 15px 5px 0px;
+}
+.Service-header{
+    padding: 15px 15px 5px 0px;
+}
+.setting-header{
+    padding: 15px 15px 5px 0px;
+}
+.pr-110{
+    padding-right: 110px;
+}
+.pr-400{
+    padding-right: 400px;
+}
+a:hover{
+    text-decoration: none;
+}
+.left-menu{
+    background: #ffff;
+}
+.left-menu h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.left-menu h4 a{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-left: 15px;
+}
+/* menu-header */
+.left-menu .submenu-text a:hover{
+    color: #f60;
+}
+.left-menu .submenu-text2 a:hover{
+    color: #f60;
+}
+.left-menu .submenu-text3 a:hover{
+    color: #f60;
+}
+.left-menu .submenu-text4 a:hover{
+    color: #f60;
+}
+/* menu-header-end */
+.left-menu .submenu-text{
+    font-size: 13px;
+    line-height: 30px;
+}
+.left-menu .submenu-text2{
+    font-size: 13px;
+    line-height: 30px;
+}
+.left-menu .submenu-text3{
+    font-size: 13px;
+    line-height: 30px;
+}
+.left-menu .submenu-text4{
+    font-size: 13px;
+    line-height: 30px;
+    border-left: 3px solid #f60;
+    background: #f2f2f2;
+}
+.left-menu .submenu-text2 a{
+    color:  rgb(0, 0, 0);
+    font-weight: 400;
+    padding-left: 15px;
+}
+.left-menu .submenu-text3 a{
+    color:  rgb(0, 0, 0);
+    font-weight: 400;
+    padding-left: 15px;
+}
+.left-menu .submenu-text4 a{
+    color:  #f60;
+    font-weight: 400;
+    padding-left: 15px;
+}
+span i {
+    font-size: 10px;
+}
+.left-menu .submenu-text a{
+    color: black;
+    font-weight: 400;
+    padding-left: 15px;
+}
+    /* download-section */
+.download-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #DEE2E6;
+	margin-top: 26px;
+	background: #fff;
+}
+.download-section h4{
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.download-section span{
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #999;
+}
+.download-section a {
+	display: grid;
+	place-items: center;
+	margin-top: 12px;
+	color: black;
+	font-size: 13px;
+}
+.download-wrapper {
+	padding: 15px 0 15px 0px;
+}
+.download-section a:hover {
+	color: #f60;
+}
+.download-section h6{
+    font-size: 13px;
+    margin-top: 15px;
+}
+    /* download-section-end */
+/* account-section */
+.Account-section {
+	background: #fff;
+	width: 100%;
+}
+.Personal-section {
+	padding: 31px 20px 43px;
+}
+.personal-link {
+	font-size: 12px;
+	padding-left: 28px;
+	padding-top: 13px;
+}
+.Security-section {
+	padding: 31px 20px 43px;
+}
+.security-link {
+	font-size: 12px;
+	padding-left: 28px;
+	padding-top: 13px;
+}
+.Email-section {
+	padding: 31px 20px 43px;
+}
+.Email-link {
+	font-size: 12px;
+	padding-left: 28px;
+	padding-top: 13px;
+}
+.Social-section {
+	padding: 31px 20px 100px;
+}
+.social-link {
+	font-size: 13px;
+	padding-left: 28px;
+	padding-top: 13px;
+}
+.social-link i {
+	font-size: 15px;
+}
+.fab-color i{
+    color: #395693;
+}
+.mess-color i{
+    color: #009AFF;
+}
+.social-link h6 {
+	display: inline;
+	font-size: 13px;
+	padding-bottom: 14px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-left: 6px;
+}
+/* account-section */

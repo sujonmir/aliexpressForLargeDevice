@@ -1,0 +1,158 @@
+.header-nav{
+    position: static;
+    height: 80px;
+    /* background-color: rgb(143, 143, 143); */
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+.nav-brande{
+    float: left;
+    z-index: 11;
+}
+.form-control-select{
+    margin-top: 8px;
+    border-style: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-family: openSans;
+    font-size: 13px;
+    color: #333333;
+    width: 75px;
+    background: url(//ae01.alicdn.com/kf/HTB1SxPpatfvK1RjSszh763cGFXa2.png) no-repeat scroll right center transparent;
+}
+.form-control-select:focus{
+    outline: none;
+    border: none;
+}
+
+.buy-products-signin{
+    background: url(../images/buy-products/buy-products-bg.webp) no-repeat center top;
+    background-size: 1920px 600px;
+    margin: auto;
+    height: 600px;
+    width: 100%;
+}
+
+.signInField{
+    width: 360px;
+    background-color: #FFF;
+    float: right;
+    margin: 80px auto;
+    margin-right: 8%;
+    display: inline;
+    position: relative;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding: 20px;
+}
+.signInField .tip {
+    /* margin: 20px 20px 0; */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    color: #4D4D4D;
+    font-size: 12px;
+    display: block;
+}
+input:focus{
+    outline: none;
+}
+
+#messageform{
+    text-align: center;
+    display: none;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #f6c8b5;
+    background: #fceee8;
+    padding: 5px 0;
+    margin: 0;
+    color: #4d4d4d;
+    position: relative;
+}
+#messageform::before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    background-image: url(../images/buy-products/x-icon.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+.form-buyproducts .form-group .email-lable {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: block;
+}
+.form-buyproducts .form-group .pass-lable {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.form-buyproducts .form-group .forgot {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: #08c;
+    text-decoration: none;
+}
+.form-buyproducts .form-group .input-form-text {
+    width: 100%;
+    border: 1px solid #a6a6a6;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    line-height: 17px;
+    font-size: 12px;
+    color: #595959;
+    background: #fff;
+    vertical-align: middle;
+    box-shadow: 0 1px 0 #ececec inset;
+}
+.form-buyproducts #submit {
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid #e87b0e;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #e87b0e;
+    box-shadow: 0 1px 1px #ebe7e6;
+    zoom: 100%;
+    _overflow: visible;
+}
+.form-buyproducts .join-btn {
+    text-align: right;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: #08c;
+    margin-top: 20px;
+}
+.buy-footer{
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+    padding: 20px 0 10px 0;
+}
+.buyp{
+    display: block;
+    text-align: center;
+    clear: both;
+    font: 400 12px verdana;
+    color: #999;
+    line-height: 20px;
+    margin-top: 0;
+}

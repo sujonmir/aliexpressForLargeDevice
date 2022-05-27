@@ -1,0 +1,444 @@
+/*project for product Store product page*/
+
+/*Global Css started*/
+.dropdown ul li{
+	list-style: none;
+}
+.nav-bar ul{
+	margin-bottom: 0px;
+}
+.dropdown{
+	padding-left: 0px;
+}
+.dropdown ul{
+	padding-left: 0px;
+}
+.dropdown li{
+	list-style: none;
+}
+.h-content{
+	position: relative;
+    left: 70%;
+}
+ul{
+	list-style-type: none !important;
+    padding-left: 0 !important;
+}
+/*Global Css end*/
+
+/*h-banner section css started from here*/
+.h-banner{
+	width: 100%;
+	background-image: url(../images/shop_product/h-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*height: 80px;*/
+}
+.h-content .col-md-12 form{
+	padding: 30px 0px;
+	text-align: right;
+	
+}
+.h-content .col-md-12 input{
+	padding: 7px 15px;
+	border:1px solid black;
+	border-radius: 3px;
+}
+
+	/*h-banner section css end*/
+
+	/*nav-section Css started*/
+.nav-section{
+	background: #000;
+	padding: 8px 0px;
+}
+.nav-bar ul li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+.nav-bar ul li a{
+	padding:7px 10px;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+.nav-cat{
+	padding: 5px 0px;
+}
+.nav-cat p a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+}
+/*nav-section Css started*/
+  /*sidebar Css started*/
+.sidebar{
+	padding: 5px 7px;
+	border: 1px solid lightgray;
+}
+.sidebar .g-h {
+	padding: 10px 10px;
+	background: #b2eced;
+}
+.sidebar h3{
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+.group-item a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #000;
+}
+.r-img{
+	padding: 2px;
+}
+.r-img img{
+	width: 100%;
+	margin-top: 7px;
+}
+.r-des{
+	padding: 8px 0px;
+}
+.r-des p{
+	font-size: 12px;
+	margin-bottom: 0px;
+	line-height: 12px;
+}
+.r-des .price{
+	font-size: 14px;
+	color: orange;
+	font-weight: 500;
+}
+
+
+
+
+
+   /*sidebar Css started*/
+.f-option{
+	width: 100%;
+	padding: 15px 0px 5px 0;
+	height: 60px;
+	background: #f2f2f2;
+	border: 2px solid #cfcfcf;
+
+}
+.f-option .col-md-2 p{
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.f-option .col-md-2 form{
+	margin-left: -15px;
+}
+.f-option .col-md-2 input{
+	padding: 1px 4px;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+.f-option .col-md-2 p{
+	font-weight: 500;
+    color: #4c4c4c;
+	font-size: 14px;
+	margin-bottom: 0px;
+	text-align: right;
+	margin-right: 10px;
+}
+.f-option .close{
+	width: 170px;
+	background: #fff;
+}
+
+  /*Produc*/
+.mach-section{
+	border: 1px solid lightgray;
+    background:#f2f2f2;	
+    margin: 20px 0px;
+    padding: 7px 0px;
+}
+.maching ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.maching ul li a{
+			text-decoration: none;
+			padding: 2px 5px;
+			color: #000;
+}
+.b-m a{
+	color: #f60 !important;
+	font-weight: 500;
+}
+.maching ul li a i{
+	font-size: 12px;
+	font-weight: 400;
+}
+.maching ul li form {
+			display: inline-block;
+}
+.view{
+			text-align: right;
+}
+.view ul li {
+			display: inline-block;
+			margin:0px 5px;
+}
+.li-dropdown li {
+	margin-left: 20px;
+	font-size: 12px;
+}
+.li-dropdown li i{
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.m-f-section {
+	text-align: right;
+	margin-right: 20px;
+}
+.m-f-section ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.m-f-section ul li a{
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+.squre a i{
+	color: #f60;
+	font-size: 14px;
+	background: #dbdbdb;
+	padding: 4px;
+
+}
+
+
+  /*Product Gallery*/
+.product-gallery{
+			width: 100%;
+			margin-left: 20px;
+			margin-top: 20px;
+}
+/*discount section css started*/
+.discount{
+			position: relative;
+		    top: -355px;
+		    left: 190px;
+}
+.d-content {
+			width: 50px;
+		    height: 35px;
+		    background: #f60;
+		    position: absolute;
+		    z-index: 10;
+		    padding: 0px 2px;
+}
+.d-content p{
+			font-size: 25px;
+		    display: block;
+		    font-weight: 500;
+		    color: #fff;
+}
+.d-content p span{
+			display: block;
+		    font-size: 13px;
+		    margin-top: -35px;
+		    margin-left: 30px;
+}
+.off p{
+		    font-size: 13px;
+		    margin-top: -22px;
+		    margin-left: 27px;
+
+
+}
+.d-sub {
+			width: 34px;
+		    height: 34px;
+		    background: #f60;
+		    transform: rotate(45deg);
+		    position: relative;
+		    top: 17px;
+		    right: -8px;
+		    z-index: 0;
+}
+
+
+
+/*discount section end*/
+.product-item{
+    margin: 10px 0;
+    width: 220px;
+    height: 340px;
+    padding: 8px;
+    /*position: absolute;*/
+}
+.p-img img{
+	max-width: 220px;
+	max-height: 220px;
+	border: 2px solid #ededed;
+	border-bottom: 3px solid #ededed;
+	border-left: 3px solid #ededed
+}
+.p-des p{
+	margin-bottom: 0px;
+	line-height: 14px;
+	padding: 10px 0px;
+}
+.p-des p a {
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+.p-des p a:hover{
+	color: #f60;
+}
+.p-des{
+    padding-right:0px 7px;
+}
+.p-type a {
+	font-weight: 400;
+	text-decoration: none;
+}
+.p-type {
+	color: gray;
+}
+.p-price p{
+	color: #f60;
+	font-size: 15px;
+	font-weight:700;
+	padding: 2px 0px;
+}
+.pre-price p{
+	padding: 2px 0px;
+	font-size: 13px;
+	color: gray;
+	text-decoration: line-through;
+}
+.p-order p {
+	padding: 0px 0px;
+	font-size: 14px;
+	color: gray;
+}
+
+
+
+
+
+  /*Product Gallery
+
+
+  /* additional style */
+  .sp_sctitle{
+  	padding-left: 20px;
+  	font-size: 14px;
+  	font-weight: bold;
+  	padding-top: 3px;
+  }
+  .f-option form input{
+  	width: 200px;
+  	margin-left: -80px;
+  	border: 1px solid #00000030;
+  	outline: none;
+  	font-size: 14px;
+  	padding: 3px 5px;
+  }
+  .sp_scsicon i{
+  	font-size: 14px;
+  	background: #fff;
+  	border: 1px solid #00000030;
+  	padding: 6.5px;
+  	margin-left: -5px;
+  	position: relative;
+  	top: -1px;
+  	cursor: pointer;
+  }
+  .sp_iftext{
+  	font-size: 14px;
+  	color: #666;
+  	position: relative;
+  	left: -100px;
+  	margin-top: 3px;
+  }
+  .sp_hflastb{
+  	cursor: pointer;
+  }
+  .sp_hflast{
+  	text-align: center;
+  	margin-right: 5px;
+  	font-size: 12px;
+  	margin-top: -11px;
+  	background: #fff;
+  	box-sizing: border-box;
+  	padding: 15px 0;
+
+  }
+  .sp_controller{
+  	font-size: 9px !important;
+  }
+  .sp_hbicon{
+  	background: #fff;
+  	padding: 8.5px;
+  	border: 1px solid #000;
+  	border-radius: 0 5px 5px 0;
+  	margin-left: -10px;
+  	margin-top: 1px;
+  	cursor: pointer;
+  }
+
+  /* dropdown menu */
+  .sp_db_icon i{
+  	color: #4cd137;
+  	font-size: 14px;
+  }
+  .dropdown_base{position: relative;color: #4cd137 !important;}
+  .dropdown{
+  	position: absolute;
+  	width: 150px;
+  	background: #fff;
+  	box-shadow: 0 2px 5px #00000050;
+  	margin-top: 8px;
+  	display: none;
+  	z-index: 99999;
+  }
+
+  .dropdown li{
+  	display: block;
+  	width: 100%;
+  	margin: 0 !important;
+  }
+  .dropdown li:last-child{
+  	border-top: 2px solid #00000020;
+  }
+  .dropdown li a{
+  	color: #000 !important;
+  }
+  .dropdown li:hover{
+  	background: #00000010;
+  }
+  /* dropdown menu 2 */
+  .dp2_base{
+  	position: relative;
+  }
+  .dp2_base a i{
+  	font-size: 12px;
+  	color: #666;
+  	padding-left: 10px;
+  	margin-top: -2px !important;
+  }
+  .dp2{
+  	position: absolute;
+  	width: 150px;
+  	left: 101%;
+  	top: 0;
+  	background: #fff;
+  	box-shadow: 0 2px 5px #00000050;
+  	display: none;
+  }
+  .dp2 li:last-child{
+  	border-top: none;
+  }

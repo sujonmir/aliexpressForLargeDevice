@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-section h1 {
+	display: inline;
+	font-size: 37px;
+	font-weight: 700;
+	position: absolute;
+	top: 9px;
+}
+.main-section p{
+    display: block;
+}
+.main-section ul li {
+	list-style: lower-alpha;
+	padding: 5px 0px;
+	margin-left: 41px;
+}
+.close-window{
+    text-align: center;
+}
+
+.footer a{
+	text-decoration: underline;
+}

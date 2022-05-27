@@ -1,0 +1,95 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.mt-30{
+    margin-top: 30px;
+}
+.title-wrap{
+    padding: 20px 0 0;
+    margin: 0 0 10px;
+    position: relative;
+    border-bottom: 1px solid #CCC;
+}
+.title-wrap .guide{
+    color: #002858;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 100%;
+}
+.title-wrap a{
+    color: #333;
+    font-weight: 500;
+}
+.potrait-notice{
+    border: 2px solid #9AD2F5;
+    border-radius: 5px;
+}
+.potrait-notice .notice-content i{
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    display: inline;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #9AD2F5;
+}
+.notice-content p {
+    margin-bottom: 0;
+    margin-left: 8px;
+    padding: 10px 0;
+    display: inline-block;
+    font-size: 15px;
+}
+.upload_box{
+    box-sizing: border-box;
+    border: 1px dashed #ddd;
+    padding: 20px;
+}
+.ui-uploader-content{
+    background: url(../images/mempic_nophoto.gif);
+    width: 102px;
+    height: 102px;
+    min-height: 0;
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    background: #FF7519;
+    color: #FFF;
+    border-color: #FF7519;
+    font-size: 13px;
+    padding: 2px 11px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+fieldset {
+	padding: 12px;
+	font-size: 12px;
+	border: 1px dashed #DDD;
+	height: 343px;
+}
+fieldset > legend {
+	font-size: 14px;
+	font-weight: 700;
+	width: 114px;
+}
+.upload_rules fieldset{
+    margin-top: -10px;
+}
+fieldset img{
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+fieldset ul {
+	position: absolute;
+	width: 207px;
+	top: 145px;
+	left: 44px;
+}

@@ -1,0 +1,225 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.header-wrapper_2 {
+	background-image: url(../images/cuporn_details/header-bg.jpg);
+	background-size: cover;
+    background-position: 50% 0%;
+    width: auto;
+    height: 400px;
+    position: relative;
+    right: auto;
+    bottom: auto;
+}
+.header-text{
+    display: inline-block;
+}
+.header-text h2 {
+	top: 140px;
+	width: 25.25%;
+	height: 103px;
+	font-weight: 700;
+	font-size: 42px;
+	color: rgb(253, 53, 86);
+	text-align: center;
+	right: auto;
+	bottom: auto;
+	line-height: 48px;
+	position: absolute;
+	left: 45%;
+}
+.header-text h3 {
+	top: 236px;
+	width: 25.25%;
+	height: 51px;
+	font-size: 30px;
+	color: rgb(253, 53, 86);
+	text-align: center;
+	right: auto;
+	bottom: auto;
+	line-height: 48px;
+	position: absolute;
+	left: 45%;
+}
+
+/* coupon-section-start */
+.coupon-section{
+    background-image: url(../images/cuporn_details/selected_coupon1.jpg);
+    height: 643px;
+    position: relative;
+    background-position: 50%;
+}
+.main-content h2 {
+	position: absolute;
+	left: 15.88%;
+	top: 40px;
+	width: 69.08%;
+	height: 30px;
+	font-size: 31px;
+	color: rgb(56, 56, 56);
+	text-align: center;
+	font-weight: 600;
+}
+.main-content span {
+	position: absolute;
+	left: 27.21%;
+	top: 109px;
+	width: 46.42%;
+	height: 16px;
+	font-size: 16px;
+	text-align: center;
+}
+.main-content h3 {
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	left: 26%;
+	top: 85%;
+}
+.main-content h4 {
+	font-size: 18px;
+	width: 21%;
+	text-align: center;
+	position: absolute;
+	left: 55%;
+	top: 84%;
+}
+/* coupon-section-end */
+/* coupon-section2-start */
+.coupon-section2 {
+	background-image: url(../images/cuporn_details/selected_coupon2.jpg);
+	height: 1094px;
+	background-position: 50% 0%;
+	position: relative;
+}
+.section2-content h2{
+	position: absolute;
+	left: 10.92%;
+	top: 29px;
+	width: 78.17%;
+	height: 30px;
+	font-size: 30px;
+	color: rgb(75, 75, 75);
+	font-weight: 600;
+	text-align: center;
+}
+.section2-content span {
+	position: absolute;
+	left: 25.33%;
+	top: 353px;
+	width: 12.17%;
+	height: 74px;
+	right: auto;
+	bottom: auto;
+	font-size: 15px;
+}
+.section2-content h3 {
+	position: absolute;
+	left: 62.33%;
+	top: 674px;
+	width: 13.92%;
+	height: 73px;
+	font-size: 15px;
+	color: rgb(56, 56, 56);
+}
+/* coupon-section2-end */
+/* coupon-section3-start */
+.coupon-section3 {
+	position: relative;
+	background-image: url(../images/cuporn_details/selected_coupon3.jpg);
+	height: 696.4px;
+	background-position: 50% -366%;
+}
+.section3-content h3 {
+	position: absolute;
+	left: 15.29%;
+	top: -25px;
+	width: 69.42%;
+	height: 30px;
+	font-size: 30px;
+	font-weight: 600;
+	color: rgb(56, 56, 56);
+	text-align: center;
+}
+.section3-content h4 {
+	position: absolute;
+	font-size: 14px;
+	width: 37%;
+	top: 196px;
+	left: 18%;
+}
+.section3-content h5 {
+	position: absolute;
+	font-size: 14px;
+	width: 29%;
+	top: 461px;
+	left: 46%;
+}
+/* coupon-section3-end */
+
+/* coupon-section4-start */
+.coupon-section4 {
+	background-image: url(../images/cuporn_details/selected_coupon4.jpg);
+	height: 446px;
+	right: auto;
+	bottom: auto;
+	position: relative;
+	background-position: 50%;
+	top: -89px;
+}
+.section4-content h6 {
+	position: absolute;
+	left: 22.25%;
+	top: 129px;
+	width: 29.83%;
+	height: 14px;
+	font-size: 14px;
+	right: auto;
+	bottom: auto;
+	color: rgb(56, 56, 56);
+}
+/* coupon-section4-end */
+/* Rules-setion-start */
+.rules-section {
+	background-image: url(../images/cuporn_details/Rules-bg.jpg);
+	height: 549px;
+	right: auto;
+	bottom: auto;
+	display: block;
+	position: relative;
+	background-position: 50%;
+	top: -89px;
+}
+.rules-section h2{
+	position: absolute;
+	left: 42.00%;
+	top: 44px;
+	width: 16.00%;
+	height: 55px;
+	right: auto;
+	bottom: auto;
+	font-size: 39.39px;
+	color: rgb(255, 38, 61);
+	font-weight: 700;
+	text-align: center;
+}
+.rules-content .main-rules {
+	position: absolute;
+	left: 17%;
+	top: 197px;
+	width: 62.33%;
+	height: 73px;
+	font-size: 15px;
+	color: rgb(102, 102, 102);
+	right: auto;
+	bottom: auto;
+	text-align: left;
+}
+.main-rules h4 {
+	position: absolute;
+	font-size: 15px;
+	top: -76px;
+}
+/* Rules-setion-end */

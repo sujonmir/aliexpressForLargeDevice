@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-link {
+	padding: 26px 40px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.header-link a {
+	color: black;
+	font-size: 20px;
+}
+.main-section {
+	font-size: 12px;
+	width: 790px;
+    padding: 40px 0px 0px 118px;
+    color: #666;
+}
+.main-section button {
+	font-size: 14px;
+	font-weight: 600;
+	padding: 1px 13px;
+	background: #f1f1f1;
+	border: 1px solid #bcbcbc;
+	font-family: Arial, Helvetica, sans-serif;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+	border-radius: 2px;
+	margin-top: 5px;
+}
+.main-section button a{
+    color: #333;
+    text-decoration: none;
+}
+.main-section button:hover{
+    background: #fdfdfd;
+}
+.email-faq h6 {
+	font-size: 12px;
+	font-weight: 400;
+	color: #333;
+}
+.main-section ol {
+	padding-left: 46px;
+}
+.email-faq {
+	padding-top: 40px;
+}
